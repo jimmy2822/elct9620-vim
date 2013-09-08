@@ -26,8 +26,8 @@ Install
 Usage
 ---
 
-`F2` - Open NERDTree
-`F5` - Reload file
-`F6` - Open Taglist
-`F7` - Prveious Tab
-`F8` - Next Tab
+* `F2` - Open NERDTree
+* `F5` - Reload file
+* `F6` - Open Taglist
+* `F7` - Prveious Tab
+* `F8` - Next Tab
