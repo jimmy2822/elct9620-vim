@@ -95,6 +95,8 @@ map <Leader><Leader> <Leader>c<space>
 
 noremap <F7> gT
 noremap <F8> gt
+noremap <S-h> gT
+noremap <S-l> gt
 
 nmap <TAB> v>
 nmap <S-TAB> v<
