@@ -5,6 +5,7 @@ function! s:SwitchBG()
   let g:background = ( g:background == "dark" ? "light" : "dark" )
   let &background = g:background
 
+
   colorscheme solarized
 
   hi IndentGuidesOdd  ctermbg=NONE
@@ -13,6 +14,7 @@ function! s:SwitchBG()
   else
     hi IndentGuidesEven ctermbg=187
   endif
+
 
   if exists(":IndentGuidesEnable")
     call indent_guides#enable()
@@ -24,3 +26,4 @@ if !exists(":SwitchBG")
 endif
 
 nmap <silent><unique> <Leader>bg :SwitchBG<CR>
+

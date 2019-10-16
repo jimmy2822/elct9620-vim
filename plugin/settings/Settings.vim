@@ -47,9 +47,6 @@ try
   syntax enable
   set background=dark
   colorscheme solarized
-
-  " Background capacity
-  hi Normal guibg=NONE ctermbg=NONE
 catch
 endtry
 
@@ -112,3 +109,9 @@ cnoremap %% <C-R>=expand('%:h').'/'<CR>
 
 nmap <leader>v :tabe $MYVIMRC<CR>
 map <leader>0 :topleft 100 :split README.md<CR>
+
+" Background Capacity
+hi Normal guibg=NONE ctermbg=NONE
+
+" Cursor Line Color
+hi CursorLine cterm=none ctermbg=198 ctermfg=118
