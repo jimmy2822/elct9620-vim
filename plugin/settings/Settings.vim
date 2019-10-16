@@ -47,6 +47,9 @@ try
   syntax enable
   set background=dark
   colorscheme solarized
+
+  " Background capacity
+  hi Normal guibg=NONE ctermbg=NONE
 catch
 endtry
 
