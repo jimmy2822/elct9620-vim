@@ -13,7 +13,8 @@ Plug 'majutsushi/tagbar'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'wakatime/vim-wakatime'
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/matchit.zip'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'editorconfig/editorconfig-vim'
@@ -70,5 +71,3 @@ Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 " DevOps
 Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
 
-" Yocto
-Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }

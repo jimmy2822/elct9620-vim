@@ -56,3 +56,4 @@ let g:wakatime_PythonBinary = '/usr/bin/python2.7'
 " if has('python3')
 "   silent! python3 1
 " endif
+" 'junegunn/fzf'
