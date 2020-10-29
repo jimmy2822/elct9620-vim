@@ -38,17 +38,13 @@ filetype on
 filetype indent on
 filetype plugin on
 
-syntax on
 set hlsearch
 set incsearch
+
 set t_Co=256
-try
-  let g:solarized_termcolors=256
-  syntax enable
-  set background=dark
-  colorscheme solarized
-catch
-endtry
+syntax enable
+set background=dark
+colorscheme solarized
 
 set nobackup
 set noswapfile

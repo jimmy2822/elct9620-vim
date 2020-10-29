@@ -5,7 +5,6 @@ function! s:SwitchBG()
   let g:background = ( g:background == "dark" ? "light" : "dark" )
   let &background = g:background
 
-
   colorscheme solarized
 
   hi IndentGuidesOdd  ctermbg=NONE
