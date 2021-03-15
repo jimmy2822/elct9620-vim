@@ -50,10 +50,3 @@ inoremap <BS> <NOP>
 
 " Wakatime
 let g:wakatime_PythonBinary = '/usr/bin/python2.7'
-
-" YCM temporary fix
-" https://github.com/vim/vim/issues/3117
-" if has('python3')
-"   silent! python3 1
-" endif
-" 'junegunn/fzf'
