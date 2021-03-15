@@ -20,6 +20,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'pbrisbin/vim-mkdir'
+Plug 'tpope/vim-surround'
 
 " TypeScript
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
