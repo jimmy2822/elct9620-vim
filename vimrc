@@ -50,3 +50,11 @@ inoremap <BS> <NOP>
 
 " Wakatime
 let g:wakatime_PythonBinary = '/usr/bin/python2.7'
+
+" Fzf
+set rtp+=/opt/homebrew/opt/fzf
+map <C-C> :FZF<CR>
+nmap \gg :Ag<CR>
+
+" Use right python version for vim
+let g:python3_host_prog=$HOME.'/.venv/bin/python3'

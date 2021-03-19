@@ -1,5 +1,6 @@
 " Color Scheme
 Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
 
 " Helper
 Plug 'junegunn/vim-easy-align'
